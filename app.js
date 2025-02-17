@@ -1,6 +1,6 @@
 function adicionarAmigo() {
   if (document.getElementById("amigo").value === "") {
-    alert("Digite um nome para adicionar à lista de amigos.");
+    alert("Por favor, insira um nome válido.");
     return;
   }
 
@@ -14,7 +14,7 @@ function adicionarAmigo() {
   let amigo = document.getElementById("amigo").value;
 
   let lista = document.getElementById("listaAmigos");
-  
+
   lista.style.display = "block";
 
   let item = document.createElement("li");
